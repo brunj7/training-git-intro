@@ -9,7 +9,7 @@ output: html_document
 
 ![adapted from https://www.atlassian.com/git/tutorials/git-merge](images/atlassian_branches_sketch.png)
 
-What are branches?  Well in fact nothing new, as the master is a branch. A branch represents an independent line of development, parallel to the master (branch). 
+What are branches?  Well in fact nothing new, as the master is a branch. A branch represents an independent line of development, parallel to the master (branch).
 
 Why should I use branches? For 2 main reasons:
 
@@ -27,7 +27,7 @@ Few commands to deal with branches:
 							name myBranchName
 * `git checkout myBranchName` Will switch to the branch myBranchName
 
-<img style="float: left;width: 30px;" src="images/tip.png"/> In a rush? create a new branch and switch to it directly:
+<img style="float: left; width: 30px;" src="images/tip.png"/> In a rush? create a new branch and switch to it directly:
 
 ```{bash, eval=FALSE}
 git checkout -b branchName
